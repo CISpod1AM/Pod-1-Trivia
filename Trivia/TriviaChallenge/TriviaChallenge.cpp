@@ -14,8 +14,12 @@ char player1 = 'X';
 char player2 = 'Y';
 
 int board();
+string question;
 int main(void)
 {
+	question();
+	int move = 0;
+	move();
 	board();
 	return 0;
 }
@@ -58,25 +62,46 @@ string question10 = " ";
 void questions(){
 	// To Do later
 
-	{cout << "What does a USB stand for? (Enter full name) ";
+		{cout << "What does a USB stand for? (Enter full name) ";
 		cin >> question1; }
 	{cout << "Are whales a mammal? (Yes or no) ";
-		cin >> question2; }
+	cin >> question2; }
 	{cout << "Which operating system is more widley acceptable? (Windows or Mac OSX)";
-		cin >> question3; }
+	cin >> question3; }
 	{cout << "What is Mr. Schmidt's first name? ";
-		cin >> question4; }
+	cin >> question4; }
 	{cout << "What is 25 * 18 + 10 ";
-		cin >> question5; }
+	cin >> question5; }
 	{cout << "What is the capitol of Missouri? ";
-		cin >> question6; }
+	cin >> question6; }
 	{cout << "Which language is the easiest to learn? (Programming languages) ";
-		cin >> question7; }
+	cin >> question7; }
 	{cout << "Which holiday in a year is usually busiest? ";
-		cin >> question8; }
+	cin >> question8; }
 	{cout << "How many minutes are in a day? ";
-		cin >> question9; }
+	cin >> question9; }
 	{cout << "How many seconds are in a day? ";
-		cout >> question10; }
-}
+	cout >> question10; }
 
+	string question = "Correct";
+	while (question == "Correct"){
+		if (player1 == question){
+				player1.move[space1_1]
+				move++;
+				cout << "Sucess";
+		}
+		else{
+			cout << "Good luck on the next question.";
+		}
+	}
+	while (question == "Correct"){
+		if (player2 == question){
+				player2.move[space1_1]
+				move++;
+				cout << "Sucess";
+		}
+		else{
+			cout << "Good luck on the next question.";
+		}
+	}
+}
