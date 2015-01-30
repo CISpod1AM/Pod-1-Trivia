@@ -74,5 +74,9 @@ void questions(){
 		cin >> question7; }
 	{cout << "Which holiday in a year is usually busiest? ";
 		cin >> question8; }
+	{cout << "How many minutes are in a day? ";
+		cin >> question9; }
+	{cout << "How many seconds are in a day? ";
+		cout >> question10; }
 }
 
